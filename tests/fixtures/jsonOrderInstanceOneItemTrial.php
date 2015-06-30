@@ -1,0 +1,91 @@
+<?php
+$order = '{
+  "CartId": 1422116386,
+  "Currency": "USD",
+  "Language": "EN",
+  "Country": "US",
+  "CustomerIP": "127.0.0.1",
+  "LocalTime": "2015-01-24 09:00:00",
+  "Source": "serban1.ghita.org",
+  "AffiliateSource": "affiliate.ghita.org",
+  "Items": [
+    {
+      "AvangateId": 4586156,
+      "Code": "6200",
+      "Quantity": "1",
+      "PriceOptions": [],
+      "Price": {
+        "NetPrice": 19.95,
+        "GrossPrice": 21.2,
+        "VAT": 1.25,
+        "Discount": 0,
+        "UnitPrice": null,
+        "UnitVAT": 1.25,
+        "UnitNetPrice": 19.95,
+        "UnitGrossPrice": 21.2,
+        "UnitAffiliateCommission": 0,
+        "UnitDiscount": 0,
+        "UnitNetDiscountedPrice": 19.95,
+        "UnitGrossDiscountedPrice": 21.2,
+        "NetDiscountedPrice": 19.95,
+        "GrossDiscountedPrice": 21.2
+      },
+      "CrossSell": null,
+      "Trial": {
+        "Period": 30,
+        "Price": 50,
+        "VAT": 3.13,
+        "GrossPrice": 53.13,
+        "NetPrice": 50
+      },
+      "AdditionalFields": null,
+      "Promotion": false,
+      "AdditionalInfo": null
+    }
+  ],
+  "Promotions": [],
+  "ExternalReference": "123456",
+  "CustomerReference": "78910",
+  "BillingDetails": {
+    "FiscalCode": "",
+    "Company": "",
+    "FirstName": "Serban",
+    "LastName": "Test",
+    "Address": "str. Londra nr. 7",
+    "City": "Bucuresti",
+    "PostalCode": "011761",
+    "Country": "US",
+    "State": "TX",
+    "Email": "sg@avangate.com"
+  },
+  "DeliveryDetails": null,
+  "PaymentDetails": {
+    "Currency": "USD",
+    "Type": "CC",
+    "CustomerIP": "192.0.0.3",
+    "PaymentMethod": null
+  },
+  "Origin": null,
+  "Shipping": 0,
+  "ShippingVAT": null,
+  "NetPrice": 50,
+  "GrossPrice": 53.13,
+  "VAT": 3.13,
+  "AffiliateCommission": null,
+  "AvangateCommission": null,
+  "Discount": 0,
+  "NetDiscountedPrice": 50,
+  "GrossDiscountedPrice": 53.13,
+  "RecurringEnabled": null,
+  "RefNo": null,
+  "OrderNo": null,
+  "ShopperRefNo": null,
+  "Status": null,
+  "ApproveStatus": null,
+  "OrderDate": null,
+  "FinishDate": null,
+  "HasShipping": null,
+  "CustomerDetails": null,
+  "Errors": false
+}';
+return json_decode($order);

@@ -1,0 +1,133 @@
+<?php
+$order = '{
+  "CartId": 1422113175,
+  "Currency": "USD",
+  "Language": "",
+  "Country": "US",
+  "CustomerIP": "192.168.0.1",
+  "LocalTime": "2015-01-25 09:00:00",
+  "Source": "ghita.org",
+  "AffiliateSource": null,
+  "Items": [
+    {
+      "AvangateId": 4586155,
+      "Code": "6000",
+      "Quantity": "1",
+      "PriceOptions": [],
+      "Price": {
+        "NetPrice": 153.3,
+        "GrossPrice": 153.3,
+        "VAT": 0,
+        "Discount": 0,
+        "UnitPrice": null,
+        "UnitVAT": 0,
+        "UnitNetPrice": 153.3,
+        "UnitGrossPrice": 153.3,
+        "UnitAffiliateCommission": 0,
+        "UnitDiscount": 0,
+        "UnitNetDiscountedPrice": 153.3,
+        "UnitGrossDiscountedPrice": 153.3,
+        "NetDiscountedPrice": 153.3,
+        "GrossDiscountedPrice": 153.3
+      },
+      "CrossSell": null,
+      "Trial": {
+        "Period": 30,
+        "Price": "50",
+        "VAT": null,
+        "GrossPrice": null,
+        "NetPrice": null
+      },
+      "AdditionalFields": null,
+      "Promotion": null,
+      "AdditionalInfo": null
+    },
+    {
+      "AvangateId": 4586167,
+      "Code": "3001",
+      "Quantity": "1",
+      "PriceOptions": [],
+      "Price": {
+        "NetPrice": 19.95,
+        "GrossPrice": 19.95,
+        "VAT": 0,
+        "Discount": 5.99,
+        "UnitPrice": null,
+        "UnitVAT": 0,
+        "UnitNetPrice": 19.95,
+        "UnitGrossPrice": 19.95,
+        "UnitAffiliateCommission": 0,
+        "UnitDiscount": 5.99,
+        "UnitNetDiscountedPrice": 13.96,
+        "UnitGrossDiscountedPrice": 13.96,
+        "NetDiscountedPrice": 13.96,
+        "GrossDiscountedPrice": 13.96
+      },
+      "CrossSell": null,
+      "Trial": null,
+      "AdditionalFields": null,
+      "Promotion": null,
+      "AdditionalInfo": null
+    }
+  ],
+  "Promotions": [
+    "12345"
+  ],
+  "ExternalReference": "123456",
+  "CustomerReference": "SERBANTHEBAWS",
+  "BillingDetails": {
+    "FiscalCode": "",
+    "Company": "",
+    "FirstName": "Serban",
+    "LastName": "Test",
+    "Address": "str. Londra nr. 7",
+    "City": "Bucuresti",
+    "PostalCode": "011761",
+    "Country": "US",
+    "State": "RI",
+    "Email": "sg@avangate.com"
+  },
+  "DeliveryDetails": null,
+  "PaymentDetails": {
+    "Currency": "USD",
+    "Type": "CC",
+    "CustomerIP": "192.0.0.3",
+    "PaymentMethod": {
+      "CardNumber": null,
+      "CardType": null,
+      "ExpirationYear": null,
+      "ExpirationMonth": null,
+      "CCID": null,
+      "HolderName": null,
+      "RecurringEnabled": null,
+      "HolderNameTime": null,
+      "CardNumberTime": null,
+      "FirstDigits": 4111,
+      "LastDigits": 1111
+    }
+  },
+  "Origin": null,
+  "Shipping": 0,
+  "ShippingVAT": null,
+  "NetPrice": 69.95,
+  "GrossPrice": 69.95,
+  "VAT": 0,
+  "AffiliateCommission": null,
+  "AvangateCommission": 3.2,
+  "Discount": 5.99,
+  "NetDiscountedPrice": 63.96,
+  "GrossDiscountedPrice": 63.96,
+  "RecurringEnabled": null,
+  "RefNo": 11343562,
+  "OrderNo": 0,
+  "ShopperRefNo": null,
+  "Status": "AUTHRECEIVED",
+  "ApproveStatus": "WAITING",
+  "OrderDate": "2015-01-25 11:56:04",
+  "FinishDate": null,
+  "HasShipping": false,
+  "CustomerDetails": null,
+  "Errors": false,
+  "FinalPrice": null
+}';
+return json_decode($order);
