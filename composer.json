@@ -1,0 +1,12 @@
+{
+    "require": {
+        "illuminate/container": "4.2.*",
+		"guzzlehttp/guzzle": "5.*"
+   },
+    "autoload": {
+      "psr-4": {
+        "AvangateSmartApiClient\\": "lib/",
+        "AvangateSmartApiClientTest\\": "tests/unittests/lib/"
+      }
+  }
+}
